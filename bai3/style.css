@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(146, 106, 56);
+  color: aliceblue;
+  align-items: center;
+  font-size: 35px;
+  width: 900px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 20px;
+  text-align: center;
+  background-color: rgb(161, 162, 162);
+  color: aliceblue;
+  width: 900px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text1 {
+  font-size: 35px;
+  line-height: 2;
+}
+
+#OS {
+  font-size: 35px;
+}
+
+.container {
+  width: 900px;
+  /* Độ rộng của phạm vi */
+  margin: 0 auto;
+  /* Canh giữa phạm vi */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Canh đều nhau */
+}
+
+.box {
+  width: 180px;
+  height: 220px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  background-color: rgb(161, 162, 162);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 25px;
+  color: aliceblue;
+  
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+footer {
+  background-color: rgb(3, 103, 130);
+  color: aliceblue;
+  align-items: center;
+  font-size: 35px;
+  width: 900px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
