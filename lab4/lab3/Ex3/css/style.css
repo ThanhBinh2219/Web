@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(to right, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5)), url("img/sen\ đá.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in {
+  width: 250px;
+  background: #fff;
+  padding: 20px;
+  margin:3% auto;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+.input-box {
+  width: 200px;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: none;
+}
+
+:-moz-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.sign-in-btn {
+  height: 35px;
+  width: 120px;
+  margin: 12px 0px 40px 0px;
+  border-radius: 50px;
+  background-color: rgb(196, 110, 228);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(185, 0, 255, 0.5);
+}
+.sign-in-btn:hover {
+  cursor: pointer;
+}
+
+.bt {
+  background-color: linear-gradient(to right, rgba(0, 168, 255), rgba(185, 0, 255));
+}
+
+.fb {
+  max-width: 30px;
+  margin: 0px 10px;
+}
+
+.gg {
+  max-width: 27px;
+  margin: 0px 10px;
+}
+
+.picture:hover {
+  cursor: pointer;
+}
+
+.sign-up {
+  margin-top: 80px;
+  color: rgb(83, 80, 80);
+}
+
+.sign-up:hover {
+  cursor: pointer;
+}

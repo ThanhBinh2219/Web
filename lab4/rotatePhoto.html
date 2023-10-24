@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate Image</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #rotating-image {
+            transition: transform 2s ease-in-out;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <img id="rotating-image" src="image/pexels-maxime-francis-2246476.jpg" alt="Rotating Image">
+    <script>
+        const rotatingImage = document.getElementById('rotating-image');
+
+        function rotateImage() {
+            const currentRotation = getComputedStyle(rotatingImage).getPropertyValue('transform');
+            const rotationValue = currentRotation === 'none' ? 'rotate(15deg)' : currentRotation + ' rotate(15deg)';
+            rotatingImage.style.transform = rotationValue;
+            setTimeout(rotateImage, 2000);
+        }
+
+        setTimeout(rotateImage, 2000); // Start the rotation after 2 seconds
+    </script>
+</body>
+</html>

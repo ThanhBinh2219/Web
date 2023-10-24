@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài 1 lab 4</title>
+    <style>
+        .color-button {
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+    
+    <script>
+      function changeBackgroundColor(color) {
+          document.body.style.backgroundColor = color;
+      }
+  </script>
+</head>
+<body>
+    <div id="buttons-container">
+        <button class="color-button" style="background-color: red;" onclick="changeBackgroundColor('red')"></button>
+        <button class="color-button" style="background-color: green;" onclick="changeBackgroundColor('green')"></button>
+        <button class="color-button" style="background-color: blue;" onclick="changeBackgroundColor('blue')"></button>
+        <button class="color-button" style="background-color: orange;" onclick="changeBackgroundColor('yellow')"></button>
+        <button class="color-button" style="background-color: black;" onclick="changeBackgroundColor('black')"></button>
+        <button class="color-button" style="background-color: purple;" onclick="changeBackgroundColor('purple')"></button>
+        <button class="color-button" style="background-color: pink;" onclick="changeBackgroundColor('pink')"></button>
+        <button class="color-button" style="background-color: rgb(120, 235, 129);" onclick="changeBackgroundColor('rgb(120, 235, 129)')"></button>
+        <button class="color-button" style="background-color: rgb(158, 95, 22);" onclick="changeBackgroundColor('rgb(158, 95, 22)')"></button>
+        <button class="color-button" style="background-color: rgb(8, 20, 182);" onclick="changeBackgroundColor('rgb(8, 20, 182)')"></button>
+        <button class="color-button" style="background-color: rgb(150, 20, 95);" onclick="changeBackgroundColor('rgb(150, 20, 95)')"></button>
+        <button class="color-button" style="background-color: rgb(3, 150, 150);" onclick="changeBackgroundColor('rgb(3, 150, 150)')"></button>
+        <button class="color-button" style="background-color: rgb(27, 121, 209);" onclick="changeBackgroundColor('rgb(27, 121, 209)')"></button>
+        <button class="color-button" style="background-color: rgb(241, 95, 10);" onclick="changeBackgroundColor('rgb(241, 95, 10)')"></button>
+    </div>
+</body>
+</html>
